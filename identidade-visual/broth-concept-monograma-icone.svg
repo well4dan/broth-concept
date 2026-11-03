@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Broth Concept - Monograma BR">
+  <title>Broth Concept - Monograma</title>
+  <circle cx="256" cy="256" r="244" fill="#182117" stroke="#EBF0E8" stroke-width="8" />
+  <circle cx="256" cy="256" r="218" fill="none" stroke="#85A37F" stroke-width="2" opacity="0.6" />
+  <g fill="none" stroke="#EBF0E8" stroke-width="9" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M 144 346 L 144 166 L 178 166 A 42 42 0 0 1 178 250 A 48 48 0 0 1 184 346 Z" />
+    <path d="M 272 166 L 272 346" />
+    <path d="M 288 166 L 312 166 A 42 42 0 0 1 308 250 L 360 346 L 288 346" />
+  </g>
+</svg>

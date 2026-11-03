@@ -1,0 +1,116 @@
+/* ==========================================================================
+   BROTH CONCEPT - LUXURY COUTURE DESIGN TOKENS
+   Palette: Deep Botanical Obsidian, Moss Atelier, Warm Ivory & Champagne Gold
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../fonts/cormorant-300.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../fonts/cormorant-300-italic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../fonts/cormorant-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../fonts/cormorant-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../fonts/jost-var.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('../fonts/jost-var-italic.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* Core Surfaces - Deep Botanical Green & Obsidian (from @brothconcept mark) */
+  --bg-obsidian: #0A0E09;
+  --bg-primary: #0F150E;
+  --bg-elevated: #151E14;
+  --bg-card: #182216;
+  --bg-glass: rgba(15, 21, 14, 0.84);
+  --bg-glass-heavy: rgba(10, 14, 9, 0.94);
+  --bg-soft: #1F2C1D;
+
+  /* Text Hierarchy - Warm Alabaster & Botanical Sage */
+  --text-primary: #ECEAE3;
+  --text-secondary: #B8C2B4;
+  --text-muted: #849280;
+  --text-inverse: #0B100A;
+
+  /* Accents - Botanical Emerald & Couture Champagne Gold */
+  --accent-emerald: #6E9B68;
+  --accent-emerald-bright: #8AB883;
+  --accent-gold: #C5AE7C;
+  --accent-gold-soft: rgba(197, 174, 124, 0.16);
+  --accent-crimson: #C95B5B;
+  --accent-success: #76B57B;
+  --accent-warning: #D9A756;
+
+  /* Hairline Borders */
+  --border-subtle: rgba(236, 234, 227, 0.09);
+  --border-strong: rgba(236, 234, 227, 0.20);
+  --border-gold: rgba(197, 174, 124, 0.38);
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Jost', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Fluid Type Scale */
+  --text-xs: clamp(0.72rem, 0.70rem + 0.12vw, 0.78rem);
+  --text-sm: clamp(0.82rem, 0.79rem + 0.15vw, 0.88rem);
+  --text-base: clamp(0.94rem, 0.90rem + 0.20vw, 1.02rem);
+  --text-lg: clamp(1.10rem, 1.04rem + 0.30vw, 1.25rem);
+  --text-xl: clamp(1.35rem, 1.20rem + 0.65vw, 1.75rem);
+  --text-2xl: clamp(1.85rem, 1.55rem + 1.35vw, 2.75rem);
+  --text-3xl: clamp(2.40rem, 1.90rem + 2.20vw, 4.10rem);
+  --text-hero: clamp(2.75rem, 2.10rem + 3.10vw, 5.20rem);
+
+  /* Spacing & Layout */
+  --container-max: 1440px;
+  --gutter: clamp(1.25rem, 3.5vw, 3.5rem);
+  --section-py: clamp(4rem, 8vw, 7.5rem);
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* Motion - Compositor-friendly cubic-bezier */
+  --ease-luxury: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 180ms;
+  --dur-base: 340ms;
+  --dur-slow: 650ms;
+
+  /* Shadows */
+  --shadow-soft: 0 18px 48px rgba(0, 0, 0, 0.42);
+  --shadow-modal: 0 32px 80px rgba(0, 0, 0, 0.72);
+}

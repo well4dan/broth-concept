@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img" aria-label="Broth Concept - Selo Botânico Oficial">
+  <title>Broth Concept - Logo Oficial</title>
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="500" cy="500" r="476" />
+    </clipPath>
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#273320" />
+      <stop offset="60%" stop-color="#1E281A" />
+      <stop offset="100%" stop-color="#131A11" />
+    </radialGradient>
+    <linearGradient id="leaf1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#35422B" />
+      <stop offset="100%" stop-color="#1B2317" />
+    </linearGradient>
+    <linearGradient id="leaf2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D3924" />
+      <stop offset="100%" stop-color="#151C12" />
+    </linearGradient>
+    <linearGradient id="leaf3" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#3C4A31" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#1E271A" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#circleClip)">
+    <rect width="1000" height="1000" fill="url(#bgGrad)" />
+    <path d="M -40 350 C 120 120, 420 80, 560 320 C 380 480, 140 520, -40 350 Z" fill="url(#leaf2)" opacity="0.85" />
+    <path d="M 480 -40 C 740 80, 920 320, 860 620 C 620 520, 460 280, 480 -40 Z" fill="url(#leaf1)" opacity="0.8" />
+    <path d="M 60 720 C 260 460, 580 420, 840 660 C 640 920, 300 960, 60 720 Z" fill="url(#leaf2)" opacity="0.9" />
+    <path d="M 140 140 C 380 140, 560 300, 520 580 C 280 540, 120 380, 140 140 Z" fill="url(#leaf3)" />
+    <path d="M 140 140 Q 330 360 520 580" stroke="#161E14" stroke-width="3" fill="none" opacity="0.55" />
+    <path d="M 880 240 C 860 520, 660 700, 380 660 C 440 400, 640 240, 880 240 Z" fill="url(#leaf1)" opacity="0.78" />
+    <path d="M 880 240 Q 630 450 380 660" stroke="#161E14" stroke-width="3" fill="none" opacity="0.5" />
+    <path d="M -20 640 C 180 500, 440 560, 560 820 C 320 940, 80 860, -20 640 Z" fill="url(#leaf3)" opacity="0.7" />
+    <path d="M 420 680 C 640 580, 880 660, 980 900 C 740 1020, 520 920, 420 680 Z" fill="url(#leaf2)" opacity="0.85" />
+    <circle cx="500" cy="500" r="476" fill="none" stroke="#0E140D" stroke-width="45" opacity="0.45" />
+  </g>
+
+  <circle cx="500" cy="500" r="476" fill="none" stroke="#EBF0E8" stroke-width="10" />
+  <circle cx="500" cy="500" r="426" fill="none" stroke="#EBF0E8" stroke-width="2.5" opacity="0.55" />
+
+  
+    <g fill="none" stroke="#EBF0E8" stroke-width="6.0" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10">
+      <!-- B (cúspide contínua autoral) -->
+      <path d="M 224 530 L 224 370 L 252 370 A 38 38 0 0 1 252 446 A 42 42 0 0 1 256 530 Z" />
+      <!-- R (haste + arco com cúspide e base fechada) -->
+      <path d="M 334 370 L 334 530" />
+      <path d="M 348 370 L 368 370 A 38 38 0 0 1 364 446 L 408 530 L 348 530" />
+      <!-- O (cápsula geométrica vertical) -->
+      <rect x="446" y="370" width="80" height="160" rx="40" ry="40" />
+      <!-- T -->
+      <path d="M 564 370 L 642 370 M 603 378 L 603 530" />
+      <!-- H -->
+      <path d="M 680 370 L 680 530 M 758 370 L 758 530 M 692 446 L 758 446" />
+    </g>
+    <!-- C O N C E P T -->
+    <g fill="none" stroke="#D8E2D5" stroke-width="2.88" stroke-linecap="butt" stroke-linejoin="miter">
+      <!-- C -->
+      <path d="M 345 594 A 13 13 0 1 0 345 614" />
+      <!-- O -->
+      <circle cx="391" cy="604" r="13" />
+      <!-- N -->
+      <path d="M 438 617 L 438 591 L 458 617 L 458 591" />
+      <!-- C -->
+      <path d="M 515 594 A 13 13 0 1 0 515 614" />
+      <!-- E -->
+      <path d="M 566 591 L 550 591 L 550 617 L 566 617 M 550 604 L 563 604" />
+      <!-- P -->
+      <path d="M 604 617 L 604 591 L 614 591 A 7.5 7.5 0 0 1 614 606 L 604 606" />
+      <!-- T -->
+      <path d="M 652 591 L 672 591 M 662 591 L 662 617" />
+    </g>
+    
+</svg>

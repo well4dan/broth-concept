@@ -1,0 +1,256 @@
+{
+  "settings": {
+    "storeName": "Broth Concept",
+    "tagline": "Moda by Creative BROTHers",
+    "razaoSocial": "A informar pelo cliente",
+    "cnpj": "A informar pelo cliente",
+    "address": "R. Ibiporã, 720 - Aurora, Londrina - PR, 86060-510",
+    "space": "@casacriou",
+    "whatsapp": "5543988341414",
+    "whatsappLabel": "+55 (43) 98834-1414",
+    "email": "atendimento@brothconcept.com.br",
+    "instagram": "https://www.instagram.com/brothconcept/",
+    "hours": "Seg a Sex, 10h às 18h · Sáb, 10h às 14h (atelier com hora marcada)",
+    "freeShippingMin": 900,
+    "pixDiscount": 5,
+    "maxInstallments": 10,
+    "minInstallment": 80,
+    "cashbackPercent": 5,
+    "originCep": "86060510"
+  },
+  "categories": [
+    {
+      "slug": "palco",
+      "name": "Palco & Glam",
+      "lead": "Figurinos para shows, turnês e clipes. Peças que reagem à luz e aguentam o movimento.",
+      "image": "/assets/img/campanha/cat-palco.webp",
+      "subs": [
+        { "slug": "tops", "name": "Tops & Bodies" },
+        { "slug": "casacos", "name": "Casacos Estruturados" },
+        { "slug": "coletes", "name": "Coletes" }
+      ]
+    },
+    {
+      "slug": "alfaiataria",
+      "name": "Alfaiataria",
+      "lead": "Cortes precisos sem gênero. Wide-leg, pantalonas, coletes e correntes.",
+      "image": "/assets/img/campanha/cat-alfaiataria.webp",
+      "subs": [
+        { "slug": "conjuntos", "name": "Conjuntos" },
+        { "slug": "calcas", "name": "Calças & Pantalonas" },
+        { "slug": "looks", "name": "Looks Completos" }
+      ]
+    },
+    {
+      "slug": "renda-e-mesh",
+      "name": "Renda & Mesh",
+      "lead": "Guipure, transparências e malhas metálicas para noites longas.",
+      "image": "/assets/img/campanha/cat-renda.webp",
+      "subs": [
+        { "slug": "camisas", "name": "Camisas" },
+        { "slug": "croppeds", "name": "Croppeds & Jaquetas" }
+      ]
+    },
+    {
+      "slug": "sob-medida",
+      "name": "Sob Medida",
+      "lead": "Peças únicas criadas a partir das suas medidas, da sua turnê ou do seu clipe.",
+      "image": "/assets/img/campanha/sob-medida.webp",
+      "subs": [
+        { "slug": "figurinos", "name": "Figurinos de Palco" },
+        { "slug": "editorial", "name": "Clipes & Editoriais" }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "p1", "sku": "BC-001", "slug": "top-drapeado-rubi-glam",
+      "name": "Top Drapeado Rubi Glam", "line": "Broth Stage",
+      "category": "palco", "subcategory": "tops",
+      "price": 340, "promoPrice": 289,
+      "colors": [{ "name": "Rubi", "hex": "#8E1B2A" }, { "name": "Noir", "hex": "#141414" }],
+      "sizes": ["PP", "P", "M", "G"],
+      "stock": { "PP": 2, "P": 4, "M": 3, "G": 1 },
+      "short": "Gola alta drapeada em cetim rubi, feita para colares pesados de palco.",
+      "description": "Top sem mangas em cetim encorpado com gola alta drapeada à mão. A modelagem segura colares e correntes pesadas sem deformar e acompanha o corpo em movimento sob a luz de palco.",
+      "specs": { "Composição": "Cetim de poliéster 96%, elastano 4%", "Forro": "Malha dry-fit preta", "Modelagem": "Ajustada no busto, gola drapeada", "Fechamento": "Zíper invisível nas costas", "Cuidados": "Lavagem a seco ou à mão em água fria", "Origem": "Desenhado e costurado em Londrina - PR", "Prazo sob medida": "7 a 10 dias úteis" },
+      "badge": "Stage", "featured": true, "sold": 41, "createdAt": "2026-09-14"
+    },
+    {
+      "id": "p2", "sku": "BC-002", "slug": "casaco-estruturado-ilhoses-noir",
+      "name": "Casaco Estruturado Ilhoses Noir", "line": "Broth Stage",
+      "category": "palco", "subcategory": "casacos",
+      "price": 690, "promoPrice": 590,
+      "colors": [{ "name": "Noir", "hex": "#121212" }, { "name": "Bordô", "hex": "#4A1420" }],
+      "sizes": ["P", "M", "G", "GG"],
+      "stock": { "P": 1, "M": 2, "G": 2, "GG": 0 },
+      "short": "Lapelas amplas com ilhoses metálicos e punhos contrastantes.",
+      "description": "Casaco arquitetônico em sarja pesada com lapelas largas aplicadas com ilhoses prateados, ombros estruturados e punhos em veludo bordô. Peça-assinatura da linha Stage, pensada para entrada de show.",
+      "specs": { "Composição": "Sarja de algodão 100% · punhos em veludo", "Forro": "Cetim preto", "Modelagem": "Oversized com ombro estruturado", "Fechamento": "Transpassado com colchetes", "Aviamentos": "Ilhoses de latão niquelado", "Cuidados": "Somente lavagem a seco", "Origem": "Desenhado e costurado em Londrina - PR" },
+      "badge": "Assinatura", "featured": true, "sold": 27, "createdAt": "2026-08-02"
+    },
+    {
+      "id": "p3", "sku": "BC-003", "slug": "colete-escama-metalica-stage",
+      "name": "Colete Escama Metálica Stage", "line": "Broth Stage",
+      "category": "palco", "subcategory": "coletes",
+      "price": 420, "promoPrice": null,
+      "colors": [{ "name": "Grafite", "hex": "#2A2D33" }],
+      "sizes": ["PP", "P", "M", "G"],
+      "stock": { "PP": 1, "P": 2, "M": 2, "G": 1 },
+      "short": "Textura em escama que reflete a luz de refletor. Série limitada.",
+      "description": "Colete sem mangas em tecido com textura geométrica de escama metalizada e choker de fivelas dupla. Reflete luz em ângulos diferentes a cada movimento.",
+      "specs": { "Composição": "Poliéster metalizado com base de malha", "Forro": "Malha preta respirável", "Modelagem": "Reta, cava americana", "Fechamento": "Botões de pressão frontais", "Acessório": "Choker de couro com fivelas (incluso)", "Cuidados": "Lavar à mão, secar à sombra", "Edição": "Série limitada de 20 peças" },
+      "badge": "Série limitada", "featured": false, "sold": 18, "createdAt": "2026-10-10"
+    },
+    {
+      "id": "p4", "sku": "BC-004", "slug": "conjunto-alfaiataria-wide-leg-off-white",
+      "name": "Conjunto Alfaiataria Wide-Leg Off-White", "line": "Broth Mainline",
+      "category": "alfaiataria", "subcategory": "conjuntos",
+      "price": 640, "promoPrice": 560,
+      "colors": [{ "name": "Off-white & Noir", "hex": "#E8E2D4" }],
+      "sizes": ["PP", "P", "M", "G", "GG"],
+      "stock": { "PP": 2, "P": 5, "M": 6, "G": 3, "GG": 2 },
+      "short": "Colete de decote profundo e calça wide-leg em sarja off-white.",
+      "description": "Colete de alfaiataria preto com decote em V profundo e calça wide-leg de cintura alta em sarja off-white. Acompanha lenço acetinado verde-oliva. O conjunto mais pedido do atelier.",
+      "specs": { "Composição": "Colete em gabardine · calça em sarja 98% algodão", "Modelagem": "Calça wide-leg de cintura alta", "Fechamento": "Botões forrados e zíper frontal", "Acessório": "Lenço em cetim verde-oliva", "Cuidados": "Lavar a seco ou à mão", "Origem": "Desenhado e costurado em Londrina - PR" },
+      "badge": "Mais vendido", "featured": true, "sold": 63, "createdAt": "2026-07-20"
+    },
+    {
+      "id": "p5", "sku": "BC-005", "slug": "look-pantalona-correntes-douradas",
+      "name": "Look Pantalona & Correntes Douradas", "line": "Broth Mainline",
+      "category": "alfaiataria", "subcategory": "looks",
+      "price": 720, "promoPrice": 648,
+      "colors": [{ "name": "Noir & Ouro", "hex": "#0F0F0F" }],
+      "sizes": ["P", "M", "G"],
+      "stock": { "P": 2, "M": 3, "G": 2 },
+      "short": "Jaqueta cropped, body chain e pantalona com cinto duplo de elos.",
+      "description": "Jaqueta cropped estruturada em sarja preta, body chain dourado e pantalona de cintura alta com cinto duplo de elos dourados. Look completo para tapete vermelho e noite.",
+      "specs": { "Composição": "Sarja de algodão · correntes em metal banhado", "Modelagem": "Jaqueta cropped, pantalona fluida", "Itens": "Jaqueta, pantalona, body chain e cinto de elos", "Fechamento": "Botões metálicos", "Cuidados": "Retirar correntes antes de lavar a seco", "Origem": "Desenhado e costurado em Londrina - PR" },
+      "badge": "Look completo", "featured": true, "sold": 35, "createdAt": "2026-09-01"
+    },
+    {
+      "id": "p6", "sku": "BC-006", "slug": "calca-patchwork-desconstruida-halter",
+      "name": "Calça Patchwork Desconstruída & Halter", "line": "Broth Mainline",
+      "category": "alfaiataria", "subcategory": "calcas",
+      "price": 580, "promoPrice": null,
+      "colors": [{ "name": "Índigo", "hex": "#1E2A44" }],
+      "sizes": ["PP", "P", "M", "G"],
+      "stock": { "PP": 1, "P": 3, "M": 2, "G": 0 },
+      "short": "Recortes de denim com costuras aparentes e top frente única plissado.",
+      "description": "Calça wide-leg em recortes de denim índigo e preto com costuras aparentes e cós assimétrico, acompanhada de top frente única plissado com gola alta e colar de pérolas.",
+      "specs": { "Composição": "Denim 100% algodão reaproveitado · top em crepe plissado", "Modelagem": "Wide-leg, cós assimétrico", "Fechamento": "Zíper e botão metálico", "Diferencial": "Cada calça tem recortes únicos", "Cuidados": "Lavar do avesso em água fria", "Origem": "Desenhado e costurado em Londrina - PR" },
+      "badge": "Peça única", "featured": false, "sold": 22, "createdAt": "2026-10-18"
+    },
+    {
+      "id": "p7", "sku": "BC-007", "slug": "camisa-renda-guipure-pantacourt",
+      "name": "Camisa Renda Guipure & Pantacourt", "line": "Broth Mainline",
+      "category": "renda-e-mesh", "subcategory": "camisas",
+      "price": 610, "promoPrice": 530,
+      "colors": [{ "name": "Noir & Caramelo", "hex": "#9A7246" }],
+      "sizes": ["P", "M", "G", "GG"],
+      "stock": { "P": 2, "M": 3, "G": 2, "GG": 1 },
+      "short": "Guipure floral translúcida com pantacourt caramelo de cintura alta.",
+      "description": "Camisa de manga longa em renda guipure floral preta translúcida, harness de couro e pantacourt de cintura alta em linho caramelo com faixa de cetim.",
+      "specs": { "Composição": "Renda guipure de algodão · pantacourt em linho", "Modelagem": "Camisa solta, pantacourt ampla", "Itens": "Camisa, pantacourt e faixa de cetim", "Fechamento": "Botões forrados", "Cuidados": "Lavar à mão, não torcer", "Origem": "Desenhado e costurado em Londrina - PR" },
+      "badge": "Editorial", "featured": true, "sold": 31, "createdAt": "2026-08-25"
+    },
+    {
+      "id": "p8", "sku": "BC-008", "slug": "camisa-renda-floral-noir",
+      "name": "Camisa Renda Floral Noir", "line": "Broth Mainline",
+      "category": "renda-e-mesh", "subcategory": "camisas",
+      "price": 360, "promoPrice": null,
+      "colors": [{ "name": "Noir", "hex": "#101010" }],
+      "sizes": ["PP", "P", "M", "G", "GG"],
+      "stock": { "PP": 3, "P": 4, "M": 5, "G": 3, "GG": 2 },
+      "short": "Renda floral encorpada, colarinho estruturado e botões acetinados.",
+      "description": "Camisa de manga curta em renda floral preta encorpada, colarinho clássico estruturado e botões acetinados. Funciona com alfaiataria ou sobre um body.",
+      "specs": { "Composição": "Renda de algodão e poliamida", "Modelagem": "Reta, manga curta", "Fechamento": "Botões acetinados", "Cuidados": "Lavar à mão em água fria", "Origem": "Desenhado e costurado em Londrina - PR" },
+      "badge": "Pronta-entrega", "featured": false, "sold": 48, "createdAt": "2026-06-30"
+    },
+    {
+      "id": "p9", "sku": "BC-009", "slug": "cropped-mesh-metalico-bomber",
+      "name": "Cropped Mesh Metálico & Bomber", "line": "Broth Atelier",
+      "category": "sob-medida", "subcategory": "figurinos",
+      "price": 670, "promoPrice": 589,
+      "colors": [{ "name": "Ouro Velho", "hex": "#8C7340" }, { "name": "Noir", "hex": "#121212" }],
+      "sizes": ["P", "M", "G"],
+      "stock": { "P": 1, "M": 1, "G": 1 },
+      "short": "Mesh translúcido com reflexos metálicos e bomber em fios dourados.",
+      "description": "Regata cropped em malha mesh translúcida com reflexos metálicos e jaqueta bomber texturizada em fios pretos e dourados. Feita sob encomenda para cada artista.",
+      "specs": { "Composição": "Mesh de poliamida metalizada · bomber em jacquard lurex", "Forro": "Cetim preto (bomber)", "Modelagem": "Cropped ajustado, bomber oversized", "Fechamento": "Zíper metálico dourado", "Cuidados": "Lavagem a seco", "Prazo sob medida": "10 a 15 dias úteis" },
+      "badge": "Sob encomenda", "featured": true, "sold": 14, "createdAt": "2026-10-28"
+    }
+  ],
+  "reviews": [
+    { "id": "r1", "productId": "p4", "name": "Rafa M.", "city": "Curitiba - PR", "rating": 5, "title": "Caimento impecável", "text": "A calça cai perfeita. Usei num casamento e todo mundo perguntou de onde era.", "size": "M", "date": "2026-10-12", "verified": true, "approved": true },
+    { "id": "r2", "productId": "p4", "name": "Duda L.", "city": "Londrina - PR", "rating": 5, "title": "Atendimento no atelier", "text": "Fiz a prova presencial e ajustaram a barra na hora. Tecido muito bom.", "size": "P", "date": "2026-09-28", "verified": true, "approved": true },
+    { "id": "r3", "productId": "p2", "name": "Theo S.", "city": "São Paulo - SP", "rating": 5, "title": "Peça de palco de verdade", "text": "Usei em três shows seguidos. Os ilhoses não soltam e o casaco segura bem o ombro.", "size": "G", "date": "2026-10-05", "verified": true, "approved": true },
+    { "id": "r4", "productId": "p1", "name": "Bia N.", "city": "Maringá - PR", "rating": 4, "title": "Lindo, veste justo", "text": "A cor rubi é ainda mais bonita ao vivo. Peguei um número acima e ficou certo.", "size": "M", "date": "2026-10-20", "verified": true, "approved": true },
+    { "id": "r5", "productId": "p7", "name": "Lui C.", "city": "Rio de Janeiro - RJ", "rating": 5, "title": "A renda é outro nível", "text": "Renda encorpada, nada de transparência barata. O pantacourt também é ótimo.", "size": "M", "date": "2026-09-15", "verified": true, "approved": true },
+    { "id": "r6", "productId": "p5", "name": "Nico A.", "city": "Belo Horizonte - MG", "rating": 5, "title": "Look completo para o clipe", "text": "Chegou bem embalado e as correntes são pesadas de verdade. Ficou incrível no clipe.", "size": "P", "date": "2026-10-02", "verified": true, "approved": true },
+    { "id": "r7", "productId": "p8", "name": "Gabe R.", "city": "Florianópolis - SC", "rating": 4, "title": "Ótima para o dia a dia", "text": "Uso com calça de alfaiataria. A renda não pinica.", "size": "G", "date": "2026-08-19", "verified": true, "approved": true },
+    { "id": "r8", "productId": "p9", "name": "Kai P.", "city": "Londrina - PR", "rating": 5, "title": "Feita nas minhas medidas", "text": "Mandei as medidas pelo WhatsApp e a bomber ficou exata. Prazo cumprido.", "size": "M", "date": "2026-10-30", "verified": true, "approved": true }
+  ],
+  "questions": [
+    { "id": "q1", "productId": "p4", "name": "Ana", "question": "A calça vem com barra feita?", "answer": "Vem com barra provisória para 1,75 m. Ajustamos sem custo no atelier ou enviamos com a medida que você informar no pedido.", "date": "2026-10-01", "approved": true },
+    { "id": "q2", "productId": "p2", "name": "Léo", "question": "Dá para fazer em outra cor?", "answer": "Sim. Pela opção Sob Medida fazemos em bordô, verde-floresta ou off-white. Prazo de 10 dias úteis.", "date": "2026-09-20", "approved": true },
+    { "id": "q3", "productId": "p1", "name": "Jô", "question": "Serve para quem tem busto grande?", "answer": "Serve. A gola drapeada tem folga e o zíper é longo. Se preferir, ajustamos sob medida.", "date": "2026-10-11", "approved": true }
+  ],
+  "posts": [
+    {
+      "slug": "como-escolher-figurino-de-palco",
+      "title": "Como escolher um figurino de palco que aguenta o show inteiro",
+      "excerpt": "Tecido, luz, transpiração e movimento: o que olhamos antes de cortar uma peça para turnê.",
+      "image": "/assets/img/campanha/journal-02.webp",
+      "date": "2026-10-22",
+      "category": "Palco",
+      "body": [
+        "Um figurino de palco é testado de um jeito que nenhuma roupa comum é. Ele passa duas horas sob refletor quente, recebe suor, gira, agacha e precisa continuar bonito na última música.",
+        "Por isso começamos pelo tecido. Cetins encorpados e sarjas pesadas mantêm a forma. Malhas metalizadas refletem a luz sem ficarem transparentes demais na câmera.",
+        "Depois vem a modelagem. Cavas mais abertas e elastano no forro garantem movimento. Fechamentos com zíper longo facilitam trocas rápidas no backstage.",
+        "Por último, a luz. Testamos as amostras sob luz fria e quente antes de aprovar a cor. Um rubi que parece vinho na loja pode virar vermelho vivo no palco."
+      ]
+    },
+    {
+      "slug": "guia-de-medidas-sob-medida",
+      "title": "Guia rápido para tirar suas medidas em casa",
+      "excerpt": "Com uma fita métrica e dez minutos você nos envia tudo o que precisamos para um sob medida.",
+      "image": "/assets/img/campanha/journal-03.webp",
+      "date": "2026-10-08",
+      "category": "Atelier",
+      "body": [
+        "Use uma fita métrica de costura e roupas justas. Peça ajuda a alguém se puder: medidas tiradas sozinho costumam variar.",
+        "Busto ou tórax: passe a fita na parte mais larga, sem apertar. Cintura: na linha do umbigo. Quadril: na parte mais larga do bumbum.",
+        "Comprimento de perna: do cós até onde você quer a barra, com o sapato que vai usar no evento.",
+        "Envie as medidas no campo de observações do pedido ou pelo WhatsApp. Conferimos tudo por chamada de vídeo antes de cortar."
+      ]
+    },
+    {
+      "slug": "renda-guipure-cuidados",
+      "title": "Renda guipure: o que é e como cuidar",
+      "excerpt": "A renda que não precisa de tule por trás. Como lavar, guardar e fazer durar.",
+      "image": "/assets/img/campanha/journal-01.webp",
+      "date": "2026-09-26",
+      "category": "Materiais",
+      "body": [
+        "A guipure é uma renda sem fundo de tule: os motivos são ligados entre si por pequenas pontes de linha. Por isso ela é mais firme e tem relevo.",
+        "Lave sempre à mão, em água fria e com sabão neutro. Não torça. Pressione a peça numa toalha para tirar o excesso de água.",
+        "Seque na horizontal e à sombra. Guarde dobrada em papel de seda, longe de correntes e peças com ilhoses que possam puxar fios."
+      ]
+    }
+  ],
+  "coupons": [
+    { "code": "BROTH10", "type": "percent", "value": 10, "minOrder": 0, "description": "10% na primeira compra (newsletter)", "active": true },
+    { "code": "PRIDE20", "type": "percent", "value": 20, "minOrder": 900, "description": "20% em pedidos acima de R$ 900", "active": true },
+    { "code": "PALCO100", "type": "fixed", "value": 100, "minOrder": 1200, "description": "R$ 100 de desconto em figurinos acima de R$ 1.200", "active": true }
+  ],
+  "banners": {
+    "topBar": { "active": true, "text": "Frete grátis acima de R$ 900 · 5% off no Pix · Parcele em até 10x", "link": "/entrega-e-frete/" },
+    "heroSlides": [
+      { "id": "s1", "eyebrow": "Coleção Ato II", "title": "Vestimos quem sobe ao palco.", "text": "Figurinos e peças autorais feitos à mão em Londrina para artistas, turnês e noites que pedem presença.", "cta": "Ver coleção", "href": "/colecao/", "image": "hero-01", "active": true },
+      { "id": "s2", "eyebrow": "Broth Stage", "title": "Feito para a luz do refletor.", "text": "Renda guipure, mesh metálico e estrutura que aguenta o show inteiro.", "cta": "Palco & Glam", "href": "/colecao/palco/", "image": "hero-02", "active": true },
+      { "id": "s3", "eyebrow": "Atelier", "title": "Sob medida, do croqui à prova.", "text": "Atendimento presencial no atelier ou por vídeo, com envio para todo o Brasil.", "cta": "Agendar atendimento", "href": "/sob-medida/", "image": "hero-03", "active": true }
+    ],
+    "promo": { "active": true, "eyebrow": "Por tempo limitado", "title": "20% off em pedidos acima de R$ 900", "text": "Use o cupom PRIDE20 na sacola. Vale para peças prontas e sob medida.", "cta": "Comprar agora", "href": "/colecao/", "coupon": "PRIDE20", "image": "/assets/img/campanha/cat-renda.webp" }
+  }
+}

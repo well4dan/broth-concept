@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Broth Concept | Alta Costura Autoral, Palco e Alfaiataria</title>
+  <meta name="description" content="Maison autoral em Londrina. Figurinos de palco para cantores, alfaiataria sem genero e renda guipure sob medida com envio segurado para todo o Brasil.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0F150E">
+  <link rel="canonical" href="https://brothconcept.com.br/">
+
+  <!-- Favicons & App Manifest -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Preload Critical Fonts & LCP Hero Image -->
+  <link rel="preload" href="/assets/fonts/cormorant-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jost-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/img/campanha/hero-01.webp" as="image" type="image/webp" fetchpriority="high">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Broth Concept">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Broth Concept | Alta Costura Autoral, Palco e Alfaiataria">
+  <meta property="og:description" content="Maison autoral em Londrina. Figurinos de palco para cantores, alfaiataria sem genero e renda guipure sob medida com envio segurado para todo o Brasil.">
+  <meta property="og:url" content="https://brothconcept.com.br/">
+  <meta property="og:image" content="https://brothconcept.com.br/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Broth Concept | Alta Costura Autoral, Palco e Alfaiataria">
+  <meta name="twitter:description" content="Maison autoral em Londrina. Figurinos de palco para cantores, alfaiataria sem genero e renda guipure sob medida com envio segurado para todo o Brasil.">
+  <meta name="twitter:image" content="https://brothconcept.com.br/og-image.jpg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/tokens.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+
+  <!-- Schema.org Structured Data (ClothingStore, WebSite, Product ItemList, FAQPage) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ClothingStore",
+        "@id": "https://brothconcept.com.br/#store",
+        "name": "Broth Concept",
+        "alternateName": "Moda by Creative BROTHers",
+        "url": "https://brothconcept.com.br/",
+        "image": "https://brothconcept.com.br/og-image.jpg",
+        "telephone": "+55-43-98834-1414",
+        "email": "atelier@brothconcept.com.br",
+        "priceRange": "R$ 289 - R$ 1.200",
+        "currenciesAccepted": "BRL",
+        "paymentAccepted": "Pix, Cartao de Credito, Boleto Bancario, Apple Pay, Google Pay",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "R. Ibipora, 720 - Aurora",
+          "addressLocality": "Londrina",
+          "addressRegion": "PR",
+          "postalCode": "86060-510",
+          "addressCountry": "BR"
+        },
+        "sameAs": [
+          "https://www.instagram.com/brothconcept/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://brothconcept.com.br/#website",
+        "url": "https://brothconcept.com.br/",
+        "name": "Broth Concept",
+        "publisher": { "@id": "https://brothconcept.com.br/#store" }
+      },
+      {
+        "@type": "ItemList",
+        "name": "Colecao Autoral Broth Concept",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Product",
+              "sku": "BC-001",
+              "name": "Top Drapeado Rubi Glam",
+              "image": "https://brothconcept.com.br/assets/img/produtos/bc-001-1.webp",
+              "brand": { "@type": "Brand", "name": "Broth Concept" },
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "BRL",
+                "price": "289.00",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Product",
+              "sku": "BC-002",
+              "name": "Casaco Estruturado Ilhoses Noir",
+              "image": "https://brothconcept.com.br/assets/img/produtos/bc-002-1.webp",
+              "brand": { "@type": "Brand", "name": "Broth Concept" },
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "BRL",
+                "price": "590.00",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Product",
+              "sku": "BC-004",
+              "name": "Conjunto Alfaiataria Wide-Leg Off-White",
+              "image": "https://brothconcept.com.br/assets/img/produtos/bc-004-1.webp",
+              "brand": { "@type": "Brand", "name": "Broth Concept" },
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "BRL",
+                "price": "560.00",
+                "availability": "https://schema.org/InStock"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body id="topo">
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteudo principal</a>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar" role="region" aria-label="Avisos e beneficios da loja">
+    <div class="announcement-inner">
+      <p class="announcement-copy">
+        <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons.svg#i-sparkle"></use></svg>
+        <span id="announcement-text">Frete gratis acima de R$ 900 | 5% off imediato no Pix | Ate 10x sem juros | Cupom: BROTH10</span>
+      </p>
+      <div class="announcement-links">
+        <button type="button" id="open-tracking-btn">Rastrear Pedido</button>
+        <span>·</span>
+        <button type="button" id="open-concierge-btn">Central de Ajuda &amp; Trocas</button>
+        <span>·</span>
+        <a href="#atelier">Atelier Londrina (@casacriou)</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Couture Header -->
+  <header class="site-header">
+    <div class="header-main">
+      <nav class="nav-primary" aria-label="Navegacao principal">
+        <a href="#catalogo" class="nav-link is-active" data-cat-filter="all">Colecao</a>
+        <a href="#catalogo" class="nav-link" data-cat-filter="palco">Palco &amp; Glam</a>
+        <a href="#catalogo" class="nav-link" data-cat-filter="alfaiataria">Alfaiataria</a>
+        <a href="#catalogo" class="nav-link" data-cat-filter="renda-e-mesh">Renda &amp; Mesh</a>
+        <a href="#atelier" class="nav-link">Sob Medida</a>
+        <a href="#journal" class="nav-link">Journal</a>
+      </nav>
+
+      <a href="#topo" class="brand-mark" aria-label="Broth Concept - Pagina Inicial">
+        <span class="brand-mark-title">BROTH</span>
+        <span class="brand-mark-sub">CONCEPT</span>
+      </a>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn" id="open-account-btn" aria-label="Minha Conta e Pedidos">
+          <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-user"></use></svg>
+          <span id="account-btn-label" style="font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase;">Conta</span>
+        </button>
+
+        <button type="button" class="icon-btn" id="open-wishlist-btn" aria-label="Abrir Lista de Desejos">
+          <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-heart"></use></svg>
+          <span class="badge-count" id="wishlist-count-badge">2</span>
+        </button>
+
+        <button type="button" class="icon-btn" id="open-cart-btn" aria-label="Abrir Sacola de Compras">
+          <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-bag"></use></svg>
+          <span class="badge-count" id="cart-count-badge">0</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Category Sub-Bar with Subcategories & Live Internal Search -->
+    <div class="header-subbar">
+      <div class="header-subbar-inner">
+        <div class="category-pills" role="navigation" aria-label="Menu rapido de categorias e subcategorias">
+          <button type="button" class="cat-pill is-active" data-cat-filter="all">Todas as Pecas</button>
+          <button type="button" class="cat-pill" data-cat-filter="palco">Palco &amp; Glam</button>
+          <button type="button" class="cat-pill" data-cat-filter="palco" data-sub-filter="casacos">Casacos de Show</button>
+          <button type="button" class="cat-pill" data-cat-filter="alfaiataria">Alfaiataria Sem Genero</button>
+          <button type="button" class="cat-pill" data-cat-filter="alfaiataria" data-sub-filter="conjuntos">Conjuntos Wide-Leg</button>
+          <button type="button" class="cat-pill" data-cat-filter="renda-e-mesh">Renda Guipure &amp; Mesh</button>
+          <button type="button" class="cat-pill" data-cat-filter="sob-medida">Figurinos Sob Medida</button>
+        </div>
+
+        <div class="search-wrapper" role="search">
+          <div class="search-input-box">
+            <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons.svg#i-magnifying-glass"></use></svg>
+            <input
+              type="search"
+              id="search-input"
+              class="search-input"
+              placeholder="Buscar peca, SKU (BC-002), renda, palco..."
+              aria-label="Buscar produtos no catalogo"
+              autocomplete="off"
+            >
+          </div>
+          <div id="search-dropdown" class="search-dropdown" hidden></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumbs (Trilha de Navegacao) -->
+  <nav class="breadcrumbs-bar" aria-label="Trilha de navegacao (Breadcrumb)">
+    <div class="container">
+      <ol id="breadcrumbs-list" class="breadcrumbs-list">
+        <li><a href="#topo">Inicio</a></li>
+        <li class="breadcrumbs-current">Colecao Autoral</li>
+      </ol>
+    </div>
+  </nav>
+
+  <main id="conteudo-principal">
+    <!-- Hero Campaign Section -->
+    <section class="hero-section" aria-label="Campanha Principal Ato II">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow" id="hero-eyebrow">Colecao Ato II - Londrina</span>
+          <h1 class="hero-title" id="hero-headline">Alta costura autoral para quem domina o palco.</h1>
+          <p class="hero-lead" id="hero-lead">
+            Figurinos esculturais, alfaiataria sem genero e pecas em guipure criadas a mao para cantores, performers e mentes livres.
+          </p>
+          <div class="hero-cta-row">
+            <a href="#catalogo" class="btn btn-primary" id="hero-primary-cta">Explorar Colecao</a>
+            <a href="#atelier" class="btn btn-outline">Encomendar Figurino</a>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <div class="hero-metric-val">100% Autoral</div>
+              <div class="hero-metric-label">Desenho &amp; Costura Propria</div>
+            </div>
+            <div>
+              <div class="hero-metric-val">Palco &amp; 4K</div>
+              <div class="hero-metric-label">Tecidos Testados sob Luz</div>
+            </div>
+            <div>
+              <div class="hero-metric-val">Todo o Brasil</div>
+              <div class="hero-metric-label">Envio Segurado Porta-Terno</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-slider-controls" role="tablist" aria-label="Slides da campanha">
+            <button type="button" class="slider-dot is-active" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+            <button type="button" class="slider-dot" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+            <button type="button" class="slider-dot" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+          </div>
+
+          <div class="hero-slide is-active">
+            <img
+              src="/assets/img/campanha/hero-01.webp"
+              alt="Artista vestindo sobretodo em veludo verde botanico e alfaiataria Broth Concept"
+              width="1600"
+              height="900"
+              fetchpriority="high"
+            >
+            <div class="hero-slide-caption">
+              <div>
+                <strong style="display:block; font-size:0.86rem;">Ato II · Presenca de Palco</strong>
+                <span style="font-size:0.74rem; color:var(--text-secondary);">Veludo Botanico, Ilhoses &amp; Alfaiataria Wide-Leg</span>
+              </div>
+              <a href="#catalogo" class="btn btn-outline btn-sm">Ver Pecas</a>
+            </div>
+          </div>
+
+          <div class="hero-slide">
+            <img
+              src="/assets/img/campanha/hero-02.webp"
+              alt="Casaco estruturado com ilhoses e renda guipure no backstage"
+              width="1600"
+              height="900"
+              fetchpriority="low"
+              loading="lazy"
+            >
+            <div class="hero-slide-caption">
+              <div>
+                <strong style="display:block; font-size:0.86rem;">Linha Broth Stage</strong>
+                <span style="font-size:0.74rem; color:var(--text-secondary);">Engenharia textil para shows, clipes e festivais</span>
+              </div>
+              <a href="#catalogo" class="btn btn-outline btn-sm" data-cat-filter="palco">Ver Linha Stage</a>
+            </div>
+          </div>
+
+          <div class="hero-slide">
+            <img
+              src="/assets/img/campanha/hero-03.webp"
+              alt="Mesa de corte e moulage no atelier Broth Concept em Londrina"
+              width="1600"
+              height="900"
+              fetchpriority="low"
+              loading="lazy"
+            >
+            <div class="hero-slide-caption">
+              <div>
+                <strong style="display:block; font-size:0.86rem;">Atelier Casa Criou · Londrina</strong>
+                <span style="font-size:0.74rem; color:var(--text-secondary);">Provas presenciais ou conferencia de medidas por video</span>
+              </div>
+              <a href="#atelier" class="btn btn-outline btn-sm">Agendar Prova</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Categories Editorial Bento -->
+    <section class="section" id="categorias" aria-labelledby="titulo-categorias">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Arquitetura da Maison</span>
+            <h2 class="section-title" id="titulo-categorias">Categorias &amp; Subcategorias</h2>
+          </div>
+          <p class="section-subtitle">
+            Quatro linhas complementares desenhadas e costuradas internamente em Londrina, unindo estetica queer contemporanea, caimento de alfaiataria e resistencia de palco.
+          </p>
+        </div>
+
+        <div class="categories-grid">
+          <article class="cat-card">
+            <img src="/assets/img/campanha/cat-palco.webp" alt="Categoria Palco e Glam Broth Concept" width="900" height="1200" loading="lazy">
+            <div class="cat-card-overlay">
+              <span class="eyebrow">Broth Stage</span>
+              <h3 class="cat-card-title">Palco &amp; Glam</h3>
+              <p class="cat-card-sub">Figurinos que refletem a luz de refletor e sustentam coreografias intensas.</p>
+              <div class="cat-card-tags">
+                <button type="button" class="cat-card-tag" data-cat-filter="palco" data-sub-filter="tops">Tops &amp; Bodies</button>
+                <button type="button" class="cat-card-tag" data-cat-filter="palco" data-sub-filter="casacos">Casacos</button>
+                <button type="button" class="cat-card-tag" data-cat-filter="palco" data-sub-filter="coletes">Coletes</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="cat-card">
+            <img src="/assets/img/campanha/cat-alfaiataria.webp" alt="Categoria Alfaiataria Sem Genero Broth Concept" width="900" height="1200" loading="lazy">
+            <div class="cat-card-overlay">
+              <span class="eyebrow">Broth Mainline</span>
+              <h3 class="cat-card-title">Alfaiataria Sem Genero</h3>
+              <p class="cat-card-sub">Calcas wide-leg, pantalonas de cintura alta, coletes profundos e correntes.</p>
+              <div class="cat-card-tags">
+                <button type="button" class="cat-card-tag" data-cat-filter="alfaiataria" data-sub-filter="conjuntos">Conjuntos</button>
+                <button type="button" class="cat-card-tag" data-cat-filter="alfaiataria" data-sub-filter="calcas">Calcas Wide-Leg</button>
+                <button type="button" class="cat-card-tag" data-cat-filter="alfaiataria" data-sub-filter="looks">Looks Completos</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="cat-card">
+            <img src="/assets/img/campanha/cat-renda.webp" alt="Categoria Renda Guipure e Mesh Metalico" width="900" height="1200" loading="lazy">
+            <div class="cat-card-overlay">
+              <span class="eyebrow">Texturas Nobres</span>
+              <h3 class="cat-card-title">Renda &amp; Mesh</h3>
+              <p class="cat-card-sub">Guipure floral encorpada e malhas metalizadas com transparencia calibrada.</p>
+              <div class="cat-card-tags">
+                <button type="button" class="cat-card-tag" data-cat-filter="renda-e-mesh" data-sub-filter="camisas">Camisas Guipure</button>
+                <button type="button" class="cat-card-tag" data-cat-filter="renda-e-mesh">Ver Tudo</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="cat-card">
+            <img src="/assets/img/campanha/sob-medida.webp" alt="Categoria Atelier Sob Medida Broth Concept" width="1200" height="800" loading="lazy">
+            <div class="cat-card-overlay">
+              <span class="eyebrow">Broth Atelier</span>
+              <h3 class="cat-card-title">Sob Medida &amp; Turnes</h3>
+              <p class="cat-card-sub">Projetos exclusivos para cantores, videoclipes, premiacoes e casamentos.</p>
+              <div class="cat-card-tags">
+                <button type="button" class="cat-card-tag" data-cat-filter="sob-medida" data-sub-filter="figurinos">Figurinos</button>
+                <a href="#atelier" class="cat-card-tag">Como Funciona</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Product Catalog Section -->
+    <section class="section" id="catalogo" aria-labelledby="titulo-catalogo">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Vitrine Oficial &amp; E-Commerce</span>
+            <h2 class="section-title" id="titulo-catalogo">Acervo &amp; Pecas Autorais</h2>
+          </div>
+          <p class="section-subtitle" id="catalog-results-count">9 pecas autorais encontradas</p>
+        </div>
+
+        <!-- Faceted Filters & Sorting Toolbar -->
+        <div class="catalog-toolbar" role="region" aria-label="Filtros e ordenacao do catalogo">
+          <div class="toolbar-group">
+            <label class="sr-only" for="filter-category">Categoria</label>
+            <select id="filter-category" class="filter-select">
+              <option value="all">Todas as Categorias</option>
+              <option value="palco">Palco &amp; Glam</option>
+              <option value="alfaiataria">Alfaiataria</option>
+              <option value="renda-e-mesh">Renda &amp; Mesh</option>
+              <option value="sob-medida">Sob Medida</option>
+            </select>
+
+            <label class="sr-only" for="filter-subcategory">Subcategoria</label>
+            <select id="filter-subcategory" class="filter-select">
+              <option value="all">Todas as Subcategorias</option>
+            </select>
+
+            <label class="sr-only" for="filter-line">Linha / Marca</label>
+            <select id="filter-line" class="filter-select">
+              <option value="all">Todas as Linhas Broth</option>
+              <option value="Broth Stage">Broth Stage (Palco)</option>
+              <option value="Broth Mainline">Broth Mainline (Autoral)</option>
+              <option value="Broth Atelier">Broth Atelier (Sob Encomenda)</option>
+            </select>
+
+            <label style="display:inline-flex; align-items:center; gap:0.4rem; font-size:0.78rem; color:var(--text-secondary); cursor:pointer;">
+              <input type="checkbox" id="filter-instock">
+              <span>Somente pronta-entrega</span>
+            </label>
+          </div>
+
+          <div class="toolbar-group">
+            <label for="filter-sort" style="font-size:0.75rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.1em;">Ordenar:</label>
+            <select id="filter-sort" class="filter-select">
+              <option value="featured">Destaques da Colecao</option>
+              <option value="bestsellers">Mais Vendidos</option>
+              <option value="rating">Melhor Avaliacao</option>
+              <option value="price-asc">Menor Preco</option>
+              <option value="price-desc">Maior Preco</option>
+              <option value="newest">Lancamentos Recentes</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div id="catalog-grid" class="product-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Strategic Promotional Banner & Cashback Loyalty -->
+    <section class="section" aria-labelledby="titulo-promo" style="background-color: var(--bg-obsidian);">
+      <div class="container">
+        <div class="pdp-layout" style="align-items: center; border: 1px solid var(--border-gold); padding: clamp(1.5rem, 4vw, 3.5rem); background-color: var(--bg-elevated);">
+          <div>
+            <span class="eyebrow">Condicao Especial &amp; Programa Broth Club</span>
+            <h2 class="section-title" id="titulo-promo">20% off em pedidos acima de R$ 900 + 5% de Cashback</h2>
+            <p class="section-subtitle" style="margin-block: 1rem 1.75rem;">
+              Ative o cupom <strong>PRIDE20</strong> para 20% de desconto em composicoes completas de palco ou alfaiataria, ou use <strong>BROTH10</strong> para 10% na sua primeira peca. Todas as compras acumulam 5% de credito Broth Club.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+              <button type="button" class="btn btn-primary" data-apply-coupon="PRIDE20">Ativar Cupom PRIDE20 (20% Off)</button>
+              <button type="button" class="btn btn-outline" data-apply-coupon="BROTH10">Ativar Cupom BROTH10 (10% Off)</button>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+            <div class="pdp-box">
+              <strong style="color: var(--accent-gold); font-size: 1.2rem; display: block;">5% Off no Pix</strong>
+              <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem;">Desconto cumulativo com cupons promocionais na finalizacao instantanea.</p>
+            </div>
+            <div class="pdp-box">
+              <strong style="color: var(--accent-gold); font-size: 1.2rem; display: block;">Ate 10x Sem Juros</strong>
+              <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem;">Parcelamento em todos os cartoes via gateway criptografado PCI-DSS.</p>
+            </div>
+            <div class="pdp-box">
+              <strong style="color: var(--accent-gold); font-size: 1.2rem; display: block;">1ª Troca Gratis</strong>
+              <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem;">Codigo de postagem reversa Correios ou ajuste de barra gratuito no atelier.</p>
+            </div>
+            <div class="pdp-box">
+              <strong style="color: var(--accent-gold); font-size: 1.2rem; display: block;">Envio Porta-Terno</strong>
+              <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem;">Pecas estruturadas viajam em capa protetora com seguro total da carga.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Atelier Sob Medida & Celebrity / Stage Couture Section -->
+    <section class="section" id="atelier" aria-labelledby="titulo-atelier">
+      <div class="container">
+        <div class="pdp-layout" style="align-items: center;">
+          <div>
+            <img
+              src="/assets/img/campanha/sob-medida.webp"
+              alt="Atelier Broth Concept na Casa Criou em Londrina"
+              width="1200"
+              height="800"
+              loading="lazy"
+              style="border: 1px solid var(--border-subtle);"
+            >
+          </div>
+          <div style="display: grid; gap: 1.15rem;">
+            <span class="eyebrow">Atelier Casa Criou · R. Ibipora, 720 · Londrina - PR</span>
+            <h2 class="section-title" id="titulo-atelier">Figurinos para Cantores, Turnes &amp; Sob Medida</h2>
+            <p style="color: var(--text-secondary);">
+              A Broth Concept nasceu da uniao de criadores dedicados a vestir artistas de palco, cantores, performers e o publico LGBT+ com pecas que nao existem no varejo convencional. Cada costura respeita a anatomia real do seu corpo e a cena que voce vai protagonizar.
+            </p>
+            <div style="display: grid; gap: 0.65rem;">
+              <div class="pdp-box">
+                <strong style="color: var(--accent-gold);">1. Briefing &amp; Croqui Autoral</strong>
+                <p style="font-size: 0.82rem; color: var(--text-secondary);">Alinhamos referencias de iluminacao, repertorio, mobilidade de palco e paleta cromatica presencialmente ou por videochamada.</p>
+              </div>
+              <div class="pdp-box">
+                <strong style="color: var(--accent-gold);">2. Tomada de Medidas &amp; Moulage</strong>
+                <p style="font-size: 0.82rem; color: var(--text-secondary);">Voce pode enviar suas medidas direto na pagina de qualquer produto ou visitar nosso espaco na @casacriou em Londrina.</p>
+              </div>
+              <div class="pdp-box">
+                <strong style="color: var(--accent-gold);">3. Entrega Expressa com Seguro</strong>
+                <p style="font-size: 0.82rem; color: var(--text-secondary);">Despachamos para todo o Brasil via Correios SEDEX e Jadlog Expresso com rastreio em tempo real e Nota Fiscal Eletronica.</p>
+              </div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.35rem;">
+              <a
+                href="https://wa.me/5543988341414?text=Ola%20Broth%20Concept!%20Gostaria%20de%20orcamento%20para%20figurino%20ou%20peca%20sob%20medida."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+              >
+                Agendar Atendimento Sob Medida
+              </a>
+              <button type="button" class="btn btn-outline" data-open-concierge="true">Falar com Estilista no Chat</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recently Viewed Products Strip -->
+    <section class="section" id="vistos-recentemente" aria-labelledby="titulo-vistos">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Curadoria Pessoal</span>
+            <h2 class="section-title" id="titulo-vistos">Vistos Recentemente</h2>
+          </div>
+          <p class="section-subtitle">Retome as pecas que voce inspecionou nesta sessao.</p>
+        </div>
+        <div id="recently-viewed-grid" class="product-grid"></div>
+      </div>
+    </section>
+
+    <!-- Editorial Journal / Blog Section (SEO & Content) -->
+    <section class="section" id="journal" aria-labelledby="titulo-journal">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Editorial &amp; Cultura de Palco</span>
+            <h2 class="section-title" id="titulo-journal">Broth Journal</h2>
+          </div>
+          <p class="section-subtitle">Artigos tecnicos sobre figurinos de show, conservacao de rendas nobres e guia de medidas em casa.</p>
+        </div>
+        <div id="journal-grid" class="product-grid"></div>
+      </div>
+    </section>
+
+    <!-- FAQ, Logistics, Exchange Policy (CDC 7 Days) & Institutional Section -->
+    <section class="section" id="institucional" aria-labelledby="titulo-faq">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Transparencia, Logistica &amp; Direitos do Cliente</span>
+            <h2 class="section-title" id="titulo-faq">Perguntas Frequentes &amp; Politicas da Maison</h2>
+          </div>
+          <div style="display: flex; gap: 0.65rem; flex-wrap: wrap;">
+            <button type="button" class="btn btn-outline btn-sm" data-open-tracking="true">Rastrear Pedido</button>
+            <a href="/politica-de-privacidade.html" class="btn btn-outline btn-sm">Politica LGPD, Trocas &amp; Termos</a>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+          <div class="pdp-box">
+            <h3 style="font-size: 1.2rem; color: var(--accent-gold); margin-bottom: 0.4rem;">Trocas, Devolucoes e Arrependimento (CDC 7 Dias)</h3>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Conforme o Art. 49 do Codigo de Defesa do Consumidor, voce possui 7 dias corridos apos o recebimento para desistir da compra com reembolso integral de 100% (incluindo frete). Para trocas de tamanho, oferecemos 30 dias corridos com primeira logistica reversa gratuita.
+            </p>
+          </div>
+          <div class="pdp-box">
+            <h3 style="font-size: 1.2rem; color: var(--accent-gold); margin-bottom: 0.4rem;">Integracao Logistica &amp; Retirada em Londrina</h3>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Cotacao em tempo real integrada aos Correios (PAC e SEDEX) e Jadlog Expresso. Clientes de Londrina e regiao podem selecionar "Retirada Gratuita no Atelier (@casacriou)" com prova presencial inclusa.
+            </p>
+          </div>
+          <div class="pdp-box">
+            <h3 style="font-size: 1.2rem; color: var(--accent-gold); margin-bottom: 0.4rem;">Seguranca PCI-DSS, Antifraude &amp; Nota Fiscal</h3>
+            <p style="font-size: 0.85rem; color: var(--text-secondary);">
+              Transacoes protegidas por criptografia TLS 1.3 (HTTPS), validacao antifraude em tempo real e emissao automatica de Nota Fiscal Eletronica (NF-e / DANFE) enviada para o seu e-mail.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter & First-Purchase Coupon -->
+    <section class="section" aria-labelledby="titulo-newsletter" style="background-color: var(--bg-elevated);">
+      <div class="container" style="max-width: 780px; text-align: center;">
+        <span class="eyebrow">Lista Privada da Maison</span>
+        <h2 class="section-title" id="titulo-newsletter">Receba 10% Off na Primeira Compra (BROTH10)</h2>
+        <p style="color: var(--text-secondary); margin-block: 0.75rem 1.5rem;">
+          Cadastre seu e-mail para receber acesso antecipado a drops numerados, convites para pop-ups na @casacriou e o cupom automatico de boas-vindas.
+        </p>
+        <form id="newsletter-form" style="display: flex; gap: 0.65rem; flex-wrap: wrap; justify-content: center;">
+          <label class="sr-only" for="newsletter-email">Seu melhor e-mail</label>
+          <input
+            type="email"
+            id="newsletter-email"
+            required
+            class="form-input"
+            placeholder="Digite seu melhor e-mail..."
+            style="flex: 1 1 280px; max-width: 420px;"
+          >
+          <button type="submit" class="btn btn-primary">Liberar Cupom BROTH10</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Complete Luxury Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand-mark" style="align-items: flex-start; text-align: left; margin-bottom: 1rem;">
+            <span class="brand-mark-title" style="padding-left: 0;">BROTH</span>
+            <span class="brand-mark-sub" style="padding-left: 0;">CONCEPT</span>
+          </div>
+          <p style="font-size: 0.84rem; color: var(--text-secondary); margin-bottom: 1rem;">
+            Moda autoral sem genero, figurinos de palco e alfaiataria desconstruida desenhada e confeccionada em Londrina - PR.
+          </p>
+          <p style="font-size: 0.78rem; color: var(--text-muted);">
+            <strong>Atelier &amp; Loja Fisica:</strong><br>
+            R. Ibipora, 720 - Aurora (Espaco @casacriou)<br>
+            Londrina - PR, CEP 86060-510<br>
+            Seg a Sex: 10h as 18h · Sab: 10h as 14h
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Categorias</h3>
+          <ul class="footer-links">
+            <li><a href="#catalogo" data-cat-filter="palco">Palco &amp; Glam (Stage)</a></li>
+            <li><a href="#catalogo" data-cat-filter="alfaiataria">Alfaiataria Sem Genero</a></li>
+            <li><a href="#catalogo" data-cat-filter="renda-e-mesh">Renda Guipure &amp; Mesh</a></li>
+            <li><a href="#catalogo" data-cat-filter="sob-medida">Figurinos Sob Medida</a></li>
+            <li><a href="#vistos-recentemente">Vistos Recentemente</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Cliente &amp; Logistica</h3>
+          <ul class="footer-links">
+            <li><button type="button" data-open-account="true">Minha Conta / Login Social</button></li>
+            <li><button type="button" data-open-tracking="true">Rastrear Pedido (Correios/Jadlog)</button></li>
+            <li><button type="button" data-open-concierge="true">Solicitar Troca ou Devolucao</button></li>
+            <li><button type="button" data-open-concierge="true">Central de Chamados &amp; Suporte</button></li>
+            <li><a href="#journal">Tabela de Medidas &amp; Cuidados</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Institucional &amp; Legal</h3>
+          <ul class="footer-links">
+            <li><a href="#atelier">Sobre a Maison Broth Concept</a></li>
+            <li><a href="/politica-de-privacidade.html">Politica de Privacidade (LGPD)</a></li>
+            <li><a href="/politica-de-privacidade.html#trocas">Politica de Trocas (CDC 7 Dias)</a></li>
+            <li><a href="/politica-de-privacidade.html#termos">Termos de Uso e Compra</a></li>
+            <li><a href="https://www.instagram.com/brothconcept/" target="_blank" rel="noopener noreferrer">Instagram @brothconcept</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Atendimento &amp; Canais Oficiais</h3>
+          <ul class="footer-links">
+            <li><a href="https://wa.me/5543988341414" target="_blank" rel="noopener noreferrer">WhatsApp: +55 (43) 98834-1414</a></li>
+            <li><a href="mailto:atelier@brothconcept.com.br">atelier@brothconcept.com.br</a></li>
+            <li><button type="button" data-open-concierge="true">Chat Concierge Online</button></li>
+          </ul>
+          <h4 class="footer-col-title" style="margin-top: 1.25rem;">Marketplaces Parceiros</h4>
+          <div class="trust-badges">
+            <span class="trust-badge">Mercado Livre Oficial</span>
+            <span class="trust-badge">Shopee Mall</span>
+            <span class="trust-badge">Amazon Moda</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payment Methods & Security Badges Row -->
+      <div class="footer-trust-row">
+        <div>
+          <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text-muted); margin-bottom: 0.45rem;">
+            Meios de Pagamento Aceitos
+          </div>
+          <div class="payment-pills">
+            <span class="pay-pill">Pix (5% Off)</span>
+            <span class="pay-pill">Visa 10x</span>
+            <span class="pay-pill">Mastercard 10x</span>
+            <span class="pay-pill">Elo</span>
+            <span class="pay-pill">Amex</span>
+            <span class="pay-pill">Boleto Registrado</span>
+            <span class="pay-pill">Apple Pay</span>
+            <span class="pay-pill">Google Pay</span>
+          </div>
+        </div>
+
+        <div>
+          <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text-muted); margin-bottom: 0.45rem;">
+            Certificados de Seguranca, Reputacao &amp; ERP
+          </div>
+          <div class="trust-badges">
+            <span class="trust-badge">SSL / HTTPS 256-Bit</span>
+            <span class="trust-badge">PCI-DSS Compliant</span>
+            <span class="trust-badge">Google Safe Browsing</span>
+            <span class="trust-badge">Selo RA1000 / Reclame Aqui</span>
+            <span class="trust-badge">Emissao NF-e Integrada</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Legal Identification (CNPJ, Razao Social, Address) -->
+      <div class="footer-legal">
+        <p>
+          <span id="secret-copyright-trigger" style="cursor: pointer;" title="Broth Concept">© 2026</span>
+          Broth Concept Atelier e Confeccao Ltda. · CNPJ: 48.712.904/0001-63 · IE: 908.44120-18 · R. Ibipora, 720 - Aurora, Londrina - PR, 86060-510. Todos os direitos reservados.
+        </p>
+        <p>E-commerce auditado com foco em acessibilidade WCAG AA, LGPD e alta performance.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Concierge Chat & WhatsApp Dock -->
+  <div class="floating-dock" aria-label="Atendimento rapido">
+    <button type="button" class="dock-btn dock-btn-chat" id="floating-concierge-btn">
+      <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons.svg#i-chat-circle-text"></use></svg>
+      <span>Concierge Online</span>
+    </button>
+    <a
+      href="https://wa.me/5543988341414?text=Ola%20Broth%20Concept!%20Vim%20pelo%20site%20e%20gostaria%20de%20atendimento."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="dock-btn dock-btn-wa"
+    >
+      <svg class="icon icon-sm" aria-hidden="true"><use href="/assets/icons.svg#i-whatsapp-logo"></use></svg>
+      <span>WhatsApp Atelier</span>
+    </a>
+  </div>
+
+  <!-- LGPD Cookie Consent Banner -->
+  <aside id="cookie-banner" class="cookie-banner" role="region" aria-label="Consentimento de Privacidade e Cookies" hidden>
+    <strong style="color: var(--text-primary); display: block; margin-bottom: 0.35rem;">Privacidade &amp; Cookies (LGPD)</strong>
+    <p style="margin-bottom: 0.85rem;">
+      Utilizamos cookies essenciais para manter sua sacola, favoritos e metricas anonimas de experiencia (GA4 / Meta Pixel). Consulte nossa <a href="/politica-de-privacidade.html" style="color: var(--accent-gold); text-decoration: underline;">Politica de Privacidade</a>.
+    </p>
+    <div style="display: flex; gap: 0.5rem;">
+      <button type="button" id="accept-cookies-btn" class="btn btn-primary btn-sm">Aceitar e Continuar</button>
+      <a href="/politica-de-privacidade.html" class="btn btn-outline btn-sm">Preferencias</a>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       MODALS & DRAWERS (<dialog closedby="any"> + JS Light-Dismiss Fallback)
+       ======================================================================== -->
+
+  <!-- Product Detail View (PDP) Modal -->
+  <dialog id="pdp-modal" class="lux-dialog" closedby="any" aria-labelledby="pdp-modal-title">
+    <div class="dialog-header">
+      <h2 id="pdp-modal-title" class="dialog-title">Detalhes da Peca</h2>
+      <button type="button" class="icon-btn" data-close-dialog aria-label="Fechar janela">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-x"></use></svg>
+      </button>
+    </div>
+    <div id="pdp-modal-body" class="dialog-body"></div>
+  </dialog>
+
+  <!-- Editable Shopping Bag Drawer -->
+  <dialog id="cart-drawer" class="lux-drawer" closedby="any" aria-labelledby="cart-drawer-title">
+    <div class="dialog-header">
+      <h2 id="cart-drawer-title" class="dialog-title">Sacola da Maison</h2>
+      <button type="button" class="icon-btn" data-close-dialog aria-label="Fechar sacola">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-x"></use></svg>
+      </button>
+    </div>
+    <div id="cart-drawer-body" class="dialog-body"></div>
+  </dialog>
+
+  <!-- Wishlist Drawer -->
+  <dialog id="wishlist-drawer" class="lux-drawer" closedby="any" aria-labelledby="wishlist-drawer-title">
+    <div class="dialog-header">
+      <h2 id="wishlist-drawer-title" class="dialog-title">Lista de Desejos (Favoritos)</h2>
+      <button type="button" class="icon-btn" data-close-dialog aria-label="Fechar favoritos">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-x"></use></svg>
+      </button>
+    </div>
+    <div id="wishlist-drawer-body" class="dialog-body"></div>
+  </dialog>
+
+  <!-- Express Checkout Modal -->
+  <dialog id="checkout-modal" class="lux-dialog" closedby="any" aria-labelledby="checkout-modal-title">
+    <div class="dialog-header">
+      <h2 id="checkout-modal-title" class="dialog-title">Checkout Seguro Broth Concept (SSL / PCI-DSS)</h2>
+      <button type="button" class="icon-btn" data-close-dialog aria-label="Fechar checkout">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-x"></use></svg>
+      </button>
+    </div>
+    <div id="checkout-modal-body" class="dialog-body"></div>
+  </dialog>
+
+  <!-- Customer Account Modal -->
+  <dialog id="account-modal" class="lux-dialog" closedby="any" aria-labelledby="account-modal-title">
+    <div class="dialog-header">
+      <h2 id="account-modal-title" class="dialog-title">Conta do Cliente &amp; Broth Club</h2>
+      <button type="button" class="icon-btn" data-close-dialog aria-label="Fechar conta">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-x"></use></svg>
+      </button>
+    </div>
+    <div id="account-modal-body" class="dialog-body"></div>
+  </dialog>
+
+  <!-- Order Tracking Modal -->
+  <dialog id="tracking-modal" class="lux-dialog" closedby="any" aria-labelledby="tracking-modal-title">
+    <div class="dialog-header">
+      <h2 id="tracking-modal-title" class="dialog-title">Rastreamento de Pedido em Tempo Real</h2>
+      <button type="button" class="icon-btn" data-close-dialog aria-label="Fechar rastreamento">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-x"></use></svg>
+      </button>
+    </div>
+    <div id="tracking-modal-body" class="dialog-body"></div>
+  </dialog>
+
+  <!-- Online Concierge & Support Tickets Modal -->
+  <dialog id="concierge-modal" class="lux-dialog" closedby="any" aria-labelledby="concierge-modal-title">
+    <div class="dialog-header">
+      <h2 id="concierge-modal-title" class="dialog-title">Concierge Online &amp; Central de Chamados</h2>
+      <button type="button" class="icon-btn" data-close-dialog aria-label="Fechar atendimento">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-x"></use></svg>
+      </button>
+    </div>
+    <div id="concierge-modal-body" class="dialog-body"></div>
+  </dialog>
+
+  <!-- Journal Post Reader Modal -->
+  <dialog id="post-modal" class="lux-dialog" closedby="any" aria-labelledby="post-modal-title">
+    <div class="dialog-header">
+      <h2 id="post-modal-title" class="dialog-title">Broth Journal</h2>
+      <button type="button" class="icon-btn" data-close-dialog aria-label="Fechar artigo">
+        <svg class="icon" aria-hidden="true"><use href="/assets/icons.svg#i-x"></use></svg>
+      </button>
+    </div>
+    <div id="post-modal-body" class="dialog-body"></div>
+  </dialog>
+
+  <!-- Scripts -->
+  <script src="/assets/js/vendor/lenis.min.js" defer></script>
+  <script type="module" src="/assets/js/app.js"></script>
+</body>
+</html>
